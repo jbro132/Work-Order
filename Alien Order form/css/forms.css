@@ -1,0 +1,118 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Major+Mono+Display&display=swap');
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-size: 1.5rem;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/galaxy.jpg);
+
+	
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: #5483BF;
+}
+
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+
+p, [for="abtype"] {
+	margin-bottom: 0;
+	margin-top: 2rem;
+}
+
+fieldset {
+	border: 1px solid #80B4BF;
+	border-radius: 10px;
+	margin-bottom: 2rem;
+}
+
+legend {
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+	display: block;
+}
+
+label {
+	display: block;
+	padding-bottom: 0.3rem;
+	
+}
+
+textarea {
+	height: 13.25rem;
+	padding: 1rem;
+}
+
+select {
+	font-size: 1rem;
+}
+
+button {
+	font-size: 1rem;
+	margin: 2rem 0;
+	background-color: #8ABF3B;
+	color: #000000;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: #000000;
+	color: #82D943;
+}
+
+
+input:not([type="radio"]):not([type="checkbox"]), textarea, select { 
+	display: block;
+	margin-bottom: 2rem;
+	width: 20rem;
+	font-weight: bold;
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.5rem;
+	background-color: #82D943;
+	padding: 0 1rem;
+	border-radius: 5px;
+	border: none;
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Color Theme Swatches in Hex */
+.May-/-June-2021-1-hex { color: #6273D9; }
+.May-/-June-2021-2-hex { color: #5483BF; }
+.May-/-June-2021-3-hex { color: #80B4BF; }
+.May-/-June-2021-4-hex { color: #82D943; }
+.May-/-June-2021-5-hex { color: #8ABF3B; }
+
